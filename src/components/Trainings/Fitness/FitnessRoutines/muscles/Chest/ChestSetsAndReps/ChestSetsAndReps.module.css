@@ -59,3 +59,33 @@
 .inputFormat{
     width: 25%;
 }
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    width: 90vh;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-color: black;
+    color: white;
+    padding: 2%;
+    width: 30%;
+    height: 4.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+.button:hover{
+    border-color: grey;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}

@@ -1,0 +1,8 @@
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: yellow;
+    width: 100px;
+}

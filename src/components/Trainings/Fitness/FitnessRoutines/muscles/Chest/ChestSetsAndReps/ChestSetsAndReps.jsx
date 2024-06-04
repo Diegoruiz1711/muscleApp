@@ -2,8 +2,13 @@ import { useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import styles from './ChestSetsAndReps.module.css';
 import Buttons from '../Buttons/Buttons';
+import Button from '../../../../../../Button/Button';
+import { useNavigate } from 'react-router-dom'
+
 
 const ChestSetsAndReps = () => {
+
+    const navigate = useNavigate();
 
     const location = useLocation();
     const [routine, setRoutine] = useState([]);
@@ -44,6 +49,19 @@ const ChestSetsAndReps = () => {
             [exercise]: exerciseData
         });
     };
+
+    const handleAdd = () => {
+        navigate('/fitnessroutines', { state: { routine } })
+    };
+
+    const handleStart = () => {
+        navigate('/fitnessroutines', { state: { routine } })
+    };
+
+    const handleCancel = () => {
+        navigate('/')
+    };
+
 
     return (
         <div className={styles.body}>
@@ -104,8 +122,16 @@ const ChestSetsAndReps = () => {
                     </div>
                 ))}
             </div>
-            <div>
-                <Buttons />
+            <div className={styles.buttonsContainer}>
+            <Button onClick={handleAdd} className={styles.button} routine={routine}>
+                    AGREGAR OTRO GRUPO MUSCULAR
+                </Button>
+                <Button onClick={handleStart} className={styles.button} routine={routine}>
+                    COMENZAR A ENTRENAR
+                </Button>
+                <Button onClick={handleCancel} className={styles.button} routine={routine}>
+                    CANCELAR
+                </Button>
             </div>
         </div>
     );

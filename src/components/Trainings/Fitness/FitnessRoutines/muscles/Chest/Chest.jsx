@@ -1,10 +1,13 @@
 import { useState } from 'react';
-import Buttons from './FirstSteps/Buttons/Buttons';
 import styles from './Chest.module.css'
 import ChestList from './FirstSteps/ChestList/ChestList';
 import ChestRoutine from './FirstSteps/ChestRoutine/ChestRoutine';
+import Button from '../../../../../Button/Button';
+import { useNavigate } from 'react-router-dom'
 
 const Chest = () => {
+
+    const navigate = useNavigate();
 
     const [availableExercises, setAvailableExercises] = useState([
         'Press de banca',
@@ -71,26 +74,40 @@ const Chest = () => {
         setAvailableExercises([...availableExercises, exercise]);
     };
 
+    const handleSave = () => {
+        navigate('/chest-step3', { state: { routine } })
+    };
+
+    const handleCancel = () => {
+        navigate('/')
+    };
+
+
     return (
         <div className={styles.container}>
-        <div>
-            <ChestList 
-                exercises={availableExercises}
-                onExerciseClick={addExerciseToRoutine}
-            />
+            <div>
+                <ChestList
+                    exercises={availableExercises}
+                    onExerciseClick={addExerciseToRoutine}
+                />
+            </div>
+            <div>
+                <ChestRoutine
+                    routine={routine}
+                    onExerciseClick={removeExerciseFromRoutine}
+                />
+            </div>
+            <div className={styles.buttonsContainer}>
+
+            <Button onClick={handleSave} className={styles.button} routine={routine}>
+                    CONTINUAR
+                </Button>
+                <Button onClick={handleCancel} className={styles.button}>
+                    CONTINUAR
+                </Button>
+
+            </div>
         </div>
-        <div>
-            <ChestRoutine
-                routine={routine}
-                onExerciseClick={removeExerciseFromRoutine}
-            />
-        </div>
-        <div>
-            <Buttons 
-            routine={routine}
-            />
-        </div>
-    </div>
     )
 }
 
