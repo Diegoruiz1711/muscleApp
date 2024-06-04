@@ -1,0 +1,491 @@
+----------------------------------------------- Pecho (Pectorales) -----------------------------------------------
+
+Press de banca
+Press inclinado
+Press declinado
+Aperturas con mancuernas
+Pullover
+Fondos en paralelas
+Press de banca con barra
+Press de banca con mancuernas
+Aperturas en máquina (Pec Deck)
+Press de pecho en máquina
+Press en máquina Smith
+Press con banda de resistencia
+Press en banco plano con barra
+Press en banco inclinado con barra
+Press en banco declinado con barra
+Aperturas en banco inclinado
+Aperturas en banco declinado
+Press de banca con agarre cerrado
+Fondos asistidos en máquina
+Press con mancuernas en banco plano
+Press con mancuernas en banco inclinado
+Press con mancuernas en banco declinado
+Aperturas en polea alta
+Aperturas en polea baja
+Aperturas en cable crossover
+Press de banca con cadenas
+Press de banca con banda elástica
+Flexiones
+Flexiones con manos juntas (Diamante)
+Flexiones inclinadas
+Flexiones declinadas
+Flexiones con palmada
+Flexiones en anillas
+Flexiones en TRX
+Press de pecho en máquina Hammer Strength
+Press de pecho unilateral con mancuernas
+Press de pecho unilateral en máquina
+Press de pecho en banco con stability ball
+Push-up con peso adicional
+Flexiones arqueadas
+Flexiones con agarre amplio
+Flexiones con peso corporal en anillas
+Flexiones en paralelas
+Press de pecho en máquina Marcy
+Press de pecho en máquina Cybex
+Press con mancuernas en banca ajustable
+Press de pecho con cable
+Flexiones de pecho con BOSU
+Press de pecho con Kettlebell
+Flexiones con bandas de resistencia
+
+----------------------------------------------- Espalda -----------------------------------------------
+
+Dominadas (Pull-ups)
+Remo con barra
+Remo con mancuernas
+Jalón al pecho en polea alta
+Jalón tras nuca
+Remo en máquina
+Remo en polea baja
+Peso muerto
+Peso muerto rumano
+Remo invertido (Body Rows)
+Dominadas con agarre supino (chin-ups)
+Remo con barra en T
+Remo con barra Z
+Dominadas con lastre
+Jalón al pecho con agarre estrecho
+Jalón al pecho con agarre amplio
+Remo con mancuernas a una mano
+Pull-over con polea alta
+Pull-over con mancuernas
+Peso muerto con barra hexagonal
+Peso muerto sumo
+Jalón en máquina Hammer Strength
+Jalón en máquina Cybex
+Remo con cable a una mano
+Remo en máquina a una mano
+Dominadas asistidas
+Dominadas en máquina asistida
+Pull-down en máquina
+Pull-up en TRX
+Remo en máquina Smith
+Remo con Kettlebell
+Peso muerto con mancuernas
+Peso muerto con Kettlebell
+Remo a una mano en banco
+Remo con cable a una mano
+Remo con cable con agarre neutro
+Remo invertido en TRX
+Peso muerto con cadenas
+Peso muerto con bandas de resistencia
+Remo con banda de resistencia
+Pull-up en anillas
+Remo invertido con barra
+Pull-up con peso adicional
+Remo invertido con peso corporal
+Pull-down en máquina asistida
+Remo con cuerda en polea baja
+Peso muerto con agarre ancho
+Remo con agarre ancho
+Remo con barra con agarre supino
+Remo con barra con agarre prono
+
+----------------------------------------------- Piernas -----------------------------------------------
+
+Sentadillas
+Prensa de piernas
+Extensiones de cuádriceps
+Curl de piernas (femorales)
+Zancadas (Lunges)
+Peso muerto rumano
+Elevación de talones (gemelos)
+Sentadilla búlgara
+Sentadilla hack
+Step-ups
+Sentadilla sumo
+Sentadilla frontal
+Sentadilla con barra en la espalda
+Sentadilla con barra en el pecho
+Sentadilla con mancuernas
+Sentadilla con Kettlebell
+Sentadilla con banda de resistencia
+Prensa de piernas inclinada
+Prensa de piernas horizontal
+Prensa de piernas con una pierna
+Extensiones de cuádriceps unilaterales
+Curl de piernas sentado
+Curl de piernas acostado
+Peso muerto a una pierna
+Peso muerto sumo con mancuernas
+Zancadas laterales
+Zancadas caminando
+Zancadas con salto
+Step-ups con mancuernas
+Sentadilla en máquina Smith
+Sentadilla en caja
+Sentadilla sissy
+Sentadilla overhead
+Sentadilla de pistola
+Sentadilla con salto
+Peso muerto en máquina Smith
+Elevaciones de talones sentado
+Elevaciones de talones en máquina
+Elevaciones de talones de pie
+Elevaciones de talones en prensa
+Extensiones de cuádriceps en máquina
+Curl de piernas en máquina
+Sentadilla con cinturón
+Sentadilla de sumo con Kettlebell
+Sentadilla con caja de seguridad
+Step-ups con barra
+Peso muerto con barra hexagonal
+Peso muerto con agarre sumo
+Zancadas con barra
+Sentadilla con banda elástica
+
+----------------------------------------------- Hombros (Deltoides) -----------------------------------------------
+
+Press militar con barra
+Press militar con mancuernas
+Elevaciones laterales
+Elevaciones frontales
+Pájaros (elevaciones posteriores)
+Encogimientos de hombros (Shrugs)
+Press Arnold
+Elevaciones en Y
+Remo al mentón
+Press en máquina
+Press en máquina Smith
+Press en máquina Hammer Strength
+Press con banda de resistencia
+Elevaciones laterales en polea baja
+Elevaciones frontales en polea baja
+Elevaciones posteriores en máquina
+Elevaciones laterales en máquina
+Press militar con barra de pie
+Press militar con barra sentado
+Press militar en máquina sentado
+Press militar con Kettlebell
+Press militar con banda elástica
+Elevaciones frontales con mancuernas
+Elevaciones laterales con mancuernas
+Elevaciones laterales con banda elástica
+Elevaciones laterales en máquina
+Elevaciones frontales en máquina
+Elevaciones en Y con banda elástica
+Elevaciones posteriores con banda elástica
+Press militar con un brazo
+Encogimientos de hombros con barra
+Encogimientos de hombros con mancuernas
+Encogimientos de hombros en máquina
+Encogimientos de hombros en Smith
+Encogimientos de hombros con barra tras la espalda
+Elevaciones frontales con barra
+Elevaciones laterales en TRX
+Elevaciones posteriores en TRX
+Press militar con mancuernas de pie
+Press militar con mancuernas sentado
+Press en máquina Cybex
+Press en máquina Marcy
+Elevaciones en Y con mancuernas
+Elevaciones en Y en banco inclinado
+Elevaciones laterales acostado
+Elevaciones frontales acostado
+Elevaciones posteriores acostado
+Press militar con Kettlebell de pie
+Press militar con Kettlebell sentado
+Press militar con disco
+
+----------------------------------------------- Bíceps -----------------------------------------------
+
+Curl con barra
+Curl con mancuernas
+Curl en banco Scott
+Curl concentrado
+Curl en máquina
+Curl en polea baja
+Curl martillo
+Curl spider
+Curl de arrastre
+21s (curl de 21 repeticiones)
+Curl Zottman
+Curl con banda de resistencia
+Curl con barra EZ
+Curl con barra recta
+Curl con mancuernas alterno
+Curl con mancuernas simultáneo
+Curl en predicador
+Curl con cuerda en polea
+Curl de martillo en polea
+Curl de concentración en polea
+Curl de concentración en banco
+Curl de concentración en banco Scott
+Curl de concentración en máquina
+Curl de concentración en predicador
+Curl de concentración con barra
+Curl de concentración con mancuernas
+Curl de concentración con banda elástica
+Curl en banco inclinado
+Curl en banco inclinado con mancuernas
+Curl en banco inclinado con barra
+Curl en banco inclinado con barra EZ
+Curl en banco inclinado con banda elástica
+Curl de arrastre con mancuernas
+Curl de arrastre con barra
+Curl de arrastre con barra EZ
+Curl de arrastre con banda elástica
+Curl en máquina de predicador
+Curl en máquina de concentración
+Curl en máquina de martillo
+Curl en máquina de banco inclinado
+Curl con agarre inverso
+Curl con agarre prono
+Curl con agarre supino
+Curl con mancuernas en supinación
+Curl con mancuernas en pronación
+Curl con mancuernas en agarre neutro
+Curl en polea baja con cuerda
+Curl en polea baja con barra recta
+Curl en polea baja con barra EZ
+Curl en polea baja con mancuernas
+
+----------------------------------------------- Tríceps -----------------------------------------------
+
+Press francés
+Extensiones de tríceps en polea
+Fondos en paralelas (con enfoque en tríceps)
+Extensiones de tríceps con mancuernas
+Patada de tríceps
+Press de banca con agarre cerrado
+Extensiones de tríceps por encima de la cabeza
+Rompecráneos (Skull Crushers)
+Extensiones en máquina
+Extensiones con cuerda en polea
+Press de banca con agarre cerrado en Smith
+Extensiones en polea alta
+Extensiones en polea baja
+Extensiones con barra Z
+Extensiones con barra recta
+Extensiones con mancuernas alterno
+Extensiones con mancuernas simultáneo
+Extensiones en banco inclinado
+Extensiones en banco declinado
+Fondos en banco
+Fondos asistidos en máquina
+Extensiones de tríceps con banda de resistencia
+Patada de tríceps con banda de resistencia
+Press francés con barra Z
+Press francés con barra recta
+Press francés con mancuernas
+Press francés en banco inclinado
+Press francés en banco declinado
+Extensiones por encima de la cabeza con cuerda
+Extensiones por encima de la cabeza con banda elástica
+Extensiones por encima de la cabeza con barra Z
+Extensiones por encima de la cabeza con barra recta
+Extensiones por encima de la cabeza con mancuernas
+Extensiones por encima de la cabeza con Kettlebell
+Extensiones en polea con cuerda
+Extensiones en polea con barra recta
+Extensiones en polea con barra Z
+Extensiones en polea con mancuernas
+Extensiones en polea con banda elástica
+Fondos en máquina Cybex
+Fondos en máquina Hammer Strength
+Fondos en máquina Marcy
+Extensiones en máquina de tríceps
+Extensiones en máquina de predicador
+Extensiones en máquina de banco inclinado
+Extensiones en máquina de banco declinado
+Extensiones en máquina con banda elástica
+Patada de tríceps en máquina
+Patada de tríceps en polea
+Patada de tríceps con barra
+
+----------------------------------------------- Glúteos -----------------------------------------------
+
+Puente de glúteos
+Hip thrust
+Patada de glúteo en polea
+Patada de glúteo en máquina
+Abducción de cadera en máquina
+Elevaciones de pierna traseras
+Sentadillas profundas
+Peso muerto sumo
+Sentadilla búlgara
+Step-ups
+Sentadilla de pistola
+Sentadilla con salto
+Sentadilla con banda de resistencia
+Sentadilla con peso corporal
+Sentadilla con mancuernas
+Sentadilla con barra
+Sentadilla en máquina Smith
+Sentadilla con Kettlebell
+Sentadilla frontal
+Sentadilla overhead
+Sentadilla goblet
+Sentadilla hack
+Prensa de piernas
+Prensa de piernas con una pierna
+Prensa de piernas con banda de resistencia
+Prensa de piernas con Kettlebell
+Prensa de piernas en máquina
+Puente de glúteos con peso
+Puente de glúteos con banda de resistencia
+Puente de glúteos en máquina
+Puente de glúteos en fitball
+Hip thrust con peso
+Hip thrust con banda de resistencia
+Hip thrust en máquina
+Hip thrust en fitball
+Hip thrust con Kettlebell
+Elevación de pierna trasera con peso
+Elevación de pierna trasera con banda de resistencia
+Elevación de pierna trasera en fitball
+Elevación de pierna trasera en TRX
+Elevación de pierna trasera en anillas
+Abducción de cadera con peso
+Abducción de cadera con banda de resistencia
+Abducción de cadera en fitball
+Abducción de cadera en TRX
+Abducción de cadera en anillas
+Patada de glúteo con peso
+Patada de glúteo con banda de resistencia
+Patada de glúteo en fitball
+Patada de glúteo en TRX
+
+----------------------------------------------- Abdominales -----------------------------------------------
+
+Crunch
+Crunch inverso
+Elevación de piernas colgado
+Plancha
+Plancha lateral
+Bicicleta abdominal
+Elevación de piernas acostado
+Rollout con rueda abdominal
+Russian twist
+Crunch en máquina
+Crunch con cable
+Crunch en banco inclinado
+Crunch en banco declinado
+Crunch con peso
+Crunch en fitball
+Crunch con banda de resistencia
+Crunch en máquina Hammer Strength
+Crunch en máquina Cybex
+Crunch en máquina Marcy
+Plancha con elevación de pierna
+Plancha con elevación de brazo
+Plancha con rotación
+Plancha con desplazamiento lateral
+Plancha con deslizadores
+Plancha en fitball
+Plancha en TRX
+Plancha con banda de resistencia
+Elevación de piernas con fitball
+Elevación de piernas con banda de resistencia
+Elevación de piernas en banco inclinado
+Elevación de piernas en banco declinado
+Elevación de piernas con peso
+Elevación de rodillas colgado
+Elevación de rodillas en banco
+Elevación de rodillas con peso
+Elevación de rodillas en fitball
+Elevación de rodillas con banda de resistencia
+Russian twist con peso
+Russian twist en fitball
+Russian twist en banco inclinado
+Russian twist con banda de resistencia
+Crunch en TRX
+Crunch en anillas
+Crunch en banco con peso
+Crunch con kettlebell
+Crunch con fitball en banco inclinado
+Crunch con banda elástica
+Rollout con banda de resistencia
+Rollout con barra
+Rollout con Kettlebell
+
+----------------------------------------------- Antebrazos -----------------------------------------------
+
+Curl de muñeca
+Curl inverso
+Curl de muñeca inverso
+Grip strength (agarre con pinza)
+Flexión de muñeca con barra
+Rotación de muñeca
+Extensiones de muñeca en máquina
+Curl Zottman
+Hang (colgarse de una barra)
+Farmer's walk
+Wrist roller
+Curl de muñeca en banco
+Curl de muñeca en polea
+Curl de muñeca con banda de resistencia
+Curl inverso con barra
+Curl inverso con mancuernas
+Curl inverso con banda de resistencia
+Flexión de muñeca en banco
+Flexión de muñeca en polea
+Flexión de muñeca con banda de resistencia
+Extensión de muñeca con barra
+Extensión de muñeca con mancuernas
+Extensión de muñeca en polea
+Extensión de muñeca con banda de resistencia
+Rotación de muñeca con mancuernas
+Rotación de muñeca con barra
+Rotación de muñeca con banda de resistencia
+Hang en anillas
+Hang en TRX
+Farmer's walk con mancuernas
+Farmer's walk con barra
+Farmer's walk con Kettlebell
+Wrist roller con barra
+Wrist roller con mancuernas
+Wrist roller con banda de resistencia
+Curl de muñeca en banco inclinado
+Curl de muñeca en banco declinado
+Curl de muñeca con Kettlebell
+Curl de muñeca en máquina
+Curl inverso con Kettlebell
+Flexión de muñeca en banco inclinado
+Flexión de muñeca en banco declinado
+Flexión de muñeca con Kettlebell
+Extensión de muñeca en banco inclinado
+Extensión de muñeca en banco declinado
+Extensión de muñeca con Kettlebell
+Grip strength con disco
+Grip strength con barra
+Grip strength con mancuernas
+Grip strength con Kettlebell
+
+----------------------------------------------- Trapecios -----------------------------------------------
+
+Encogimientos de hombros con barra
+Encogimientos de hombros con mancuernas
+Remo al mentón
+Remo con barra
+Encogimientos en máquina
+Encogimientos con barra tras la espalda
+Peso muerto
+Power shrugs
+High pulls
+Face pulls
+
+

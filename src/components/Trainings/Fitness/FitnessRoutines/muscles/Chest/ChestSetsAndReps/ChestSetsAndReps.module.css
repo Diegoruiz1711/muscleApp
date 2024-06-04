@@ -1,0 +1,61 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 80vh;
+    margin: 5%;
+    padding: 1% 5% 1% 5%;
+    border: 2px solid grey;
+}
+
+.exerciseContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0.5%;
+    font-size: 1.4em;
+    height: 1.5em;
+    border: 2px solid grey;
+    width: 80vh;
+}
+
+.setDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0.5%;
+    font-size: 1.4em;
+    height: 1.5em;
+    border: 2px solid grey;
+    width: 80vh;
+    
+}
+.reps{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+.weight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.inputFormat{
+    width: 25%;
+}

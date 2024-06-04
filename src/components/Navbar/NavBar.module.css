@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: black;
+    color: yellow;
+    font-size: 2em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 14vh;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 14vh;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    height: 14vh;
+}
+
+.imgSize {
+    width: 40%;
+}
+
+.imgSizeProfile {
+    width: 40%;
+}
+
+.menuButtonNavBar {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 1em; 
+}
+
+.navContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid white;
+    text-decoration: none;
+   
+}

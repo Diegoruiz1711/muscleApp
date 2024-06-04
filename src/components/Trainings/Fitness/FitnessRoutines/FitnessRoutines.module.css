@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    font-size: 2.5em;
+}
+.muscleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+    width: 15%;
+}
+.linkContainer{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.imgSize{
+    width: 30%;
+}
+
+.muscleFont{
+    font-size: 2em;
+}
