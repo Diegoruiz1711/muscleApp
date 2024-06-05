@@ -22,6 +22,7 @@
     justify-content: center;
     width: 85%;
     height: 14vh;
+   
 }
 
 .profile{
@@ -52,6 +53,6 @@
     align-items: center;
     justify-content: center;    
     text-decoration: none;
-    
+    padding: 0% 1%;
    
 }

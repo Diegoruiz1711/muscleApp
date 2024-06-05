@@ -64,6 +64,7 @@ const ChestSetsAndReps = () => {
 
 
     return (
+        <>
         <div className={styles.body}>
             <div className={styles.container}>
                 {routine.map((exercise, index) => (
@@ -134,6 +135,23 @@ const ChestSetsAndReps = () => {
                 </Button>
             </div>
         </div>
+                    <hr className={styles.line} />
+
+                    <div className={styles.steps}>
+                        <div className={styles.circle}>1</div>
+                        <div className={styles.circle}>2</div>
+                        <div className={styles.circle}>3</div>
+                        <div className={styles.circleActive}>4</div>
+                        <div className={styles.circle}>5</div>
+                    </div>
+                    <div className={styles.circlesDescriptions}>
+                        <div className={styles.stepsDescription}>Seleccionar tipo de entrenamiento</div>
+                        <div className={styles.stepsDescription}>Seleccionar grupo muscular</div>
+                        <div className={styles.stepsDescription}>Seleccionar ejercicios</div>
+                        <div className={styles.stepsDescription}>Determinar series y repeticiones</div>
+                        <div className={styles.stepsDescription}>Comenzar a entrenar &#128170;</div>
+                    </div>
+                    </>
     );
 }
 

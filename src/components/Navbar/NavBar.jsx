@@ -21,19 +21,19 @@ const NavBar = () => {
             </div>
 
             <div className={styles.menu}>
-                <Link to='/cardio' className={styles.navContent}>
-                    <button className={styles.menuButtonNavBar}>Inicio</button>
+                <Link to='/' className={styles.navContent}>
+                    <div className={styles.menuButtonNavBar}>Inicio</div>
                 </Link>
-                <Link to='/fitness' className={styles.navContent}>
-                    <button className={styles.menuButtonNavBar}>Entrenamientos</button>
+                <Link to='/1' className={styles.navContent}>
+                <div className={styles.menuButtonNavBar}>Entrenamientos</div>
                 </Link>
-                <Link to='/aerobics' className={styles.navContent}>
-                    <button className={styles.menuButtonNavBar}>Entrenamientos</button>
+                <Link to='/2' className={styles.navContent}>
+                    <div className={styles.menuButtonNavBar}>Ayuda</div>
                 </Link>
             </div>
 
             <div className={styles.profile}>
-                <img src={profileImage} alt="Logo de la App" className={styles.imgSizeProfile} />
+                <img src={profileImage} alt="Logo de iniciar sesion" className={styles.imgSizeProfile} />
             </div>
             
         </div>

@@ -15,8 +15,48 @@
 }
 .steps{
     display: flex;
-    flex-direction: column;
     align-items: center;  
     justify-content: center;
     font-size: 2em;
+    
+}
+.circle, .circleActive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: rgb(254, 203, 13);
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    margin: 0em 3em;
+}
+
+.circleActive{
+    background-color: rgb(255, 119, 0);
+}
+
+.line{
+    position: relative;
+    bottom: -3em;
+    left: 0%;
+    height: 10px;
+    background-color: rgb(254, 203, 13);
+    width: 55%;
+    border-style: solid;
+    border-radius: 1em;
+    z-index: -1;
+}
+
+.circlesDescriptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepsDescription{
+    text-align: center;
+    width: 8%;
+    margin: 1em 2.6em; 
+    font-size: 1.3em;
 }

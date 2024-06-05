@@ -84,30 +84,50 @@ const Chest = () => {
 
 
     return (
-        <div className={styles.container}>
-            <div>
-                <ChestList
-                    exercises={availableExercises}
-                    onExerciseClick={addExerciseToRoutine}
-                />
-            </div>
-            <div>
-                <ChestRoutine
-                    routine={routine}
-                    onExerciseClick={removeExerciseFromRoutine}
-                />
-            </div>
-            <div className={styles.buttonsContainer}>
+        <>
+            <div className={styles.container}>
+                <div>
+                    <ChestList
+                        exercises={availableExercises}
+                        onExerciseClick={addExerciseToRoutine}
+                    />
+                </div>
+                <div>
+                    <ChestRoutine
+                        routine={routine}
+                        onExerciseClick={removeExerciseFromRoutine}
+                    />
+                </div>
+                <div className={styles.buttonsContainer}>
 
-            <Button onClick={handleSave} className={styles.button} routine={routine}>
-                    CONTINUAR
-                </Button>
-                <Button onClick={handleCancel} className={styles.button}>
-                    CONTINUAR
-                </Button>
+                    <Button onClick={handleSave} className={styles.button} routine={routine}>
+                        CONTINUAR
+                    </Button>
+                    <Button onClick={handleCancel} className={styles.button}>
+                        CONTINUAR
+                    </Button>
+
+                </div>
 
             </div>
-        </div>
+
+            <hr className={styles.line} />
+
+            <div className={styles.steps}>
+                <div className={styles.circle}>1</div>
+                <div className={styles.circle}>2</div>
+                <div className={styles.circleActive}>3</div>
+                <div className={styles.circle}>4</div>
+                <div className={styles.circle}>5</div>
+            </div>
+            <div className={styles.circlesDescriptions}>
+                <div className={styles.stepsDescription}>Seleccionar tipo de entrenamiento</div>
+                <div className={styles.stepsDescription}>Seleccionar grupo muscular</div>
+                <div className={styles.stepsDescription}>Seleccionar ejercicios</div>
+                <div className={styles.stepsDescription}>Determinar series y repeticiones</div>
+                <div className={styles.stepsDescription}>Comenzar a entrenar &#128170;</div>
+            </div>
+        </>
     )
 }
 

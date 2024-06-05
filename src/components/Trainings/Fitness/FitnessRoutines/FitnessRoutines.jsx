@@ -10,7 +10,7 @@ const FitnessRoutines = () => {
     return (
         <>
             <h1 className={styles.title}>Selecciona los músculos que quieres trabajar</h1>
-           
+
             <div className={styles.container}>
                 <div className={styles.muscleContainer}>
                     <Link to='/chest' className={styles.linkContainer}>
@@ -49,9 +49,25 @@ const FitnessRoutines = () => {
                     <h2 className={styles.muscleFont}>Hombros</h2>
                 </div>
             </div>
-            <div>
 
+
+            <hr className={styles.line} />
+
+            <div className={styles.steps}>
+                <div className={styles.circle}>1</div>
+                <div className={styles.circleActive}>2</div>
+                <div className={styles.circle}>3</div>
+                <div className={styles.circle}>4</div>
+                <div className={styles.circle}>5</div>
             </div>
+            <div className={styles.circlesDescriptions}>
+                <div className={styles.stepsDescription}>Seleccionar tipo de entrenamiento</div>
+                <div className={styles.stepsDescription}>Seleccionar grupo muscular</div>
+                <div className={styles.stepsDescription}>Seleccionar ejercicios</div>
+                <div className={styles.stepsDescription}>Determinar series y repeticiones</div>
+                <div className={styles.stepsDescription}>Comenzar a entrenar &#128170;</div>
+            </div>
+
         </>
     )
 }
