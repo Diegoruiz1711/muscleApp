@@ -104,7 +104,7 @@ const Chest = () => {
                         CONTINUAR
                     </Button>
                     <Button onClick={handleCancel} className={styles.button}>
-                        CONTINUAR
+                        CANCELAR
                     </Button>
 
                 </div>
