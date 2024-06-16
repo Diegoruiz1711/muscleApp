@@ -1,9 +1,9 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import styles from './ChestSetsAndReps.module.css';
+import styles from './BicepsSetsAndReps.module.css';
 import Button from '../../../../../../Button/Button';
 
-const ChestSetsAndReps = () => {
+const BicepsSetsAndReps = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const [routine, setRoutine] = useState([]);
@@ -145,4 +145,4 @@ const ChestSetsAndReps = () => {
     );
 };
 
-export default ChestSetsAndReps;
+export default BicepsSetsAndReps;

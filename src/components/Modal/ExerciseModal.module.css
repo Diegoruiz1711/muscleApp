@@ -1,0 +1,57 @@
+.modalContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid grey;
+}
+
+.modalTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.modalMuscleType{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.modalMuscleDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 5em;
+    border: 1px solid grey;
+}
+
+.modalMuscleImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    width: 40%;
+}
+
+.modalMusclePEP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid grey;
+}
+
+.modalMuscleTime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+}

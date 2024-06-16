@@ -1,5 +1,5 @@
-import styles from './ChestList.module.css'
-const ChestList = ({ exercises, onExerciseClick }) => {
+import styles from './BicepsList.module.css'
+const BicepsList = ({ exercises, onExerciseClick }) => {
 
 
 
@@ -17,5 +17,5 @@ const ChestList = ({ exercises, onExerciseClick }) => {
     )
 }
 
-export default ChestList;
+export default BicepsList;
 

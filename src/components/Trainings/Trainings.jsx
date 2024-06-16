@@ -1,15 +1,22 @@
-import Aerobics from "./Aerobics/Aerobics"
-import Cardio from "./Cardio/Cardio"
-import Fitness from "./Fitness/Fitness"
-import styles from './trainings.module.css'
+import fitnessIcon from "../../assets/images/index/fitnessIcon.png";
+import cardioIcon from "../../assets/images/index/cardioIcon.png";
+import aerobicsIcon from "../../assets/images/index/aerobicsIcon.png";
+import styles from './Trainings.module.css';
+import { Link } from "react-router-dom";
+
 const Trainings = () => {
     return (
         <>
             <div className={styles.container}>
-                <Fitness />
-                <Aerobics />
-                <Cardio />
+                
+                    <Link to='/fitnessroutines' className={styles.imgContainer} ><img src={fitnessIcon} alt="Fitness image" className={styles.imgSize}/></Link>
+                
+                    <Link to='/fitnessroutines' className={styles.imgContainer} ><img src={cardioIcon} alt="Cardio image" className={styles.imgSize}/></Link>
+          
+                    <Link to='/fitnessroutines' className={styles.imgContainer} ><img src={aerobicsIcon} alt="Aerobics image" className={styles.imgSize}/></Link>
+                
             </div>
+
             <div className={styles.stepsTitle}>
                 Comienza tu entrenamiento en tan solo 5 pasos
             </div>

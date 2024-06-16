@@ -2,8 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5%;
     height: 65vh;
+}
+
+.imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgSize{
+    width: 50%;
+    height: auto;
 }
 
 .stepsTitle{
@@ -18,8 +28,8 @@
     align-items: center;  
     justify-content: center;
     font-size: 2em;
-    
 }
+
 .circle, .circleActive{
     display: flex;
     align-items: center;

@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import styles from './NavBar.module.css';
-import logo from '../images/index/logo.png'
-import profileImage from '../images/index/profileImage.png'
+import logo from '../../assets/images/index/logo.png'
+import profileImage from '../../assets/images/index/profileImage.png'
 
 const NavBar = () => {
 
@@ -27,7 +27,7 @@ const NavBar = () => {
                 <Link to='/1' className={styles.navContent}>
                 <div className={styles.menuButtonNavBar}>Entrenamientos</div>
                 </Link>
-                <Link to='/2' className={styles.navContent}>
+                <Link to='/help' className={styles.navContent}>
                     <div className={styles.menuButtonNavBar}>Ayuda</div>
                 </Link>
             </div>

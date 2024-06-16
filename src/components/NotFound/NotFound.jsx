@@ -1,4 +1,4 @@
-import pageNotFound from '../images/index/pageNotFound.png';
+import pageNotFound from '../../assets/images/index/pageNotFound.png';
 import styles from './NotFound.module.css'
 const NotFound = () =>{
     return(

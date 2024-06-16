@@ -1,11 +1,23 @@
 import { Link } from 'react-router-dom';
-import biceps from '../../../images/fitness/biceps.png'
-import chest from '../../../images/fitness/chest.png'
-import shoulders from '../../../images/fitness/shoulders.png'
-import legs from '../../../images/fitness/legs.png'
-import back from '../../../images/fitness/back.png'
-import triceps from '../../../images/fitness/triceps.png'
-import styles from './FitnessRoutines.module.css'
+import abdominal_abs from '../../../../assets/images/fitness/abdominal_abs.png';
+import abductors from '../../../../assets/images/fitness/abductors.png';
+import aductors from '../../../../assets/images/fitness/aductors.png';
+import biceps from '../../../../assets/images/fitness/biceps.png';
+import calves from '../../../../assets/images/fitness/calves.png';
+import chest from '../../../../assets/images/fitness/chest.png';
+import dorsal from '../../../../assets/images/fitness/dorsal.png';
+import forearms from '../../../../assets/images/fitness/forearms.png';
+import glutes from '../../../../assets/images/fitness/glutes.png';
+import hamstrings from '../../../../assets/images/fitness/hamstrings.png';
+import lumbar_spine from '../../../../assets/images/fitness/lumbar_spine.png';
+import neck from '../../../../assets/images/fitness/neck.png';
+import obiques_abs from '../../../../assets/images/fitness/obliques_abs.png';
+import quadriceps from '../../../../assets/images/fitness/quadriceps.png';
+import shoulders from '../../../../assets/images/fitness/shoulders.png';
+import traps from '../../../../assets/images/fitness/traps.png';
+import triceps from '../../../../assets/images/fitness/triceps.png';
+import styles from './FitnessRoutines.module.css';
+
 const FitnessRoutines = () => {
     return (
         <>
@@ -19,16 +31,29 @@ const FitnessRoutines = () => {
                     <h2 className={styles.muscleFont}>Pectorales</h2>
                 </div>
                 <div className={styles.muscleContainer}>
-                    <Link to='/back' className={styles.linkContainer}>
-                        <img src={back} alt="icon" className={styles.imgSize} />
+                    <Link to='/biceps' className={styles.linkContainer}>
+                        <img src={biceps} alt="icon" className={styles.imgSize} />
                     </Link>
-                    <h2 className={styles.muscleFont}>Espalda</h2>
+                    <h2 className={styles.muscleFont}>Biceps</h2>
                 </div>
                 <div className={styles.muscleContainer}>
-                    <Link to='/legs' className={styles.linkContainer}>
-                        <img src={legs} alt="icon" className={styles.imgSize} />
+                    <Link to='/forearms' className={styles.linkContainer}>
+                        <img src={forearms} alt="icon" className={styles.imgSize} />
                     </Link>
-                    <h2 className={styles.muscleFont}>Piernas</h2>
+                    <h2 className={styles.muscleFont}>Antebrazos</h2>
+                </div>
+
+                <div className={styles.muscleContainer}>
+                    <Link to='/neck' className={styles.linkContainer}>
+                        <img src={neck} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Cuello</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/shoulders' className={styles.linkContainer}>
+                        <img src={shoulders} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Hombros</h2>
                 </div>
                 <div className={styles.muscleContainer}>
                     <Link to='/triceps' className={styles.linkContainer}>
@@ -36,17 +61,74 @@ const FitnessRoutines = () => {
                     </Link>
                     <h2 className={styles.muscleFont}>Triceps</h2>
                 </div>
+
                 <div className={styles.muscleContainer}>
-                    <Link to='/biceps' className={styles.linkContainer}>
-                        <img src={biceps} alt="icon" className={styles.imgSize} />
+                    <Link to='/traps' className={styles.linkContainer}>
+                        <img src={traps} alt="icon" className={styles.imgSize} />
                     </Link>
-                    <h2 className={styles.muscleFont}>Biceps</h2>
+                    <h2 className={styles.muscleFont}>Trapecios</h2>
                 </div>
                 <div className={styles.muscleContainer}>
-                    <Link to='/shoulders' className={styles.linkContainer}>
-                        <img src={shoulders} alt="icon" className={styles.imgSize} />
+                    <Link to='/dorsal' className={styles.linkContainer}>
+                        <img src={dorsal} alt="icon" className={styles.imgSize} />
                     </Link>
-                    <h2 className={styles.muscleFont}>Hombros</h2>
+                    <h2 className={styles.muscleFont}>Dorsales</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/quadriceps' className={styles.linkContainer}>
+                        <img src={quadriceps} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Cuádriceps</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/aductors' className={styles.linkContainer}>
+                        <img src={aductors} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Aductores</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/abductors' className={styles.linkContainer}>
+                        <img src={abductors} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Abductores</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/calves' className={styles.linkContainer}>
+                        <img src={calves} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Pantorrillas</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/hamstrings' className={styles.linkContainer}>
+                        <img src={hamstrings} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Isquiotibiales</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/glutes' className={styles.linkContainer}>
+                        <img src={glutes} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Glúteos</h2>
+                </div>
+            </div>
+            <div className={styles.container}>
+                <div className={styles.muscleContainer}>
+                    <Link to='/abdominalabs' className={styles.linkContainer}>
+                        <img src={abdominal_abs} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Abdominales</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/obliquesabs' className={styles.linkContainer}>
+                        <img src={obiques_abs} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Oblicuos</h2>
+                </div>
+                <div className={styles.muscleContainer}>
+                    <Link to='/lumbarspine' className={styles.linkContainer}>
+                        <img src={lumbar_spine} alt="icon" className={styles.imgSize} />
+                    </Link>
+                    <h2 className={styles.muscleFont}>Lumbares</h2>
                 </div>
             </div>
 

@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 60vh;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     width: 50vh;
     margin: 5%;
     padding: 1% 5% 1% 5%;
@@ -14,7 +14,6 @@
 .exerciseContainer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-left: 2%;
     gap: 1%;
     margin: 0.5%;
@@ -22,13 +21,4 @@
     height: 1.5em;
     border: 2px solid grey;
     width: 100%;
-}
-
-.details{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1em;
-    height: 1em;
-    border: 1px solid grey;
 }

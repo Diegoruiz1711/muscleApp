@@ -11,10 +11,12 @@ import Shoulders from "./components/Trainings/Fitness/FitnessRoutines/muscles/Sh
 import Legs from "./components/Trainings/Fitness/FitnessRoutines/muscles/Legs/Legs";
 import Biceps from "./components/Trainings/Fitness/FitnessRoutines/muscles/Biceps/Biceps";
 import Triceps from "./components/Trainings/Fitness/FitnessRoutines/muscles/Triceps/Triceps";
-import Back from "./components/Trainings/Fitness/FitnessRoutines/muscles/Back/Back";
 import ChestSetsAndReps from "./components/Trainings/Fitness/FitnessRoutines/muscles/Chest/ChestSetsAndReps/ChestSetsAndReps";
 import Layout from "./Layout/Layout";
 import NotFound from "./components/NotFound/NotFound";
+import Help from "./components/Help/Help";
+import ExerciseModal from "./components/Modal/ExerciseModal";
+import BicepsSetsAndReps from "./components/Trainings/Fitness/FitnessRoutines/muscles/Biceps/BicepsSetsAndReps/BicepsSetsAndReps"
 function App() {
 
   return (
@@ -28,7 +30,7 @@ function App() {
           <Route path="/chest" element={<Chest />} />
           <Route path='/chest-step3' element={<ChestSetsAndReps />} />
           <Route path="/shoulders" element={<Shoulders />} />
-          <Route path="/back" element={<Back />} />
+          <Route path='/biceps-step3' element={<BicepsSetsAndReps />} />
           <Route path="/legs" element={<Legs />} />
           <Route path="/biceps" element={<Biceps />} />
           <Route path="/triceps" element={<Triceps />} />
@@ -36,6 +38,8 @@ function App() {
           <Route path="/aerobicsroutines" element={<AerobicsRoutines />} />
           <Route path="/cardio" element={<Cardio />} />
           <Route path="/cardioroutines" element={<CardioRoutines />} />
+          <Route path="/help" element={<Help />} />
+          <Route path="/modal" element={<ExerciseModal />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

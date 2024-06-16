@@ -3,11 +3,10 @@ import styles from './Chest.module.css'
 import ChestList from './FirstSteps/ChestList/ChestList';
 import ChestRoutine from './FirstSteps/ChestRoutine/ChestRoutine';
 import Button from '../../../../../Button/Button';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 const Chest = () => {
-
-    const navigate = useNavigate();
+    const navigate = useNavigate()
 
     const [availableExercises, setAvailableExercises] = useState([
         'Press de banca',
@@ -48,7 +47,7 @@ const Chest = () => {
         'Press de pecho unilateral con mancuernas',
         'Press de pecho unilateral en máquina',
         'Press de pecho en banco con stability ball',
-        'Push - up con peso adicional',
+        'Push-up con peso adicional',
         'Flexiones arqueadas',
         'Flexiones con agarre amplio',
         'Flexiones con peso corporal en anillas',
@@ -74,14 +73,14 @@ const Chest = () => {
         setAvailableExercises([...availableExercises, exercise]);
     };
 
-    const handleSave = () => {
-        navigate('/chest-step3', { state: { routine } })
+    const handleContinue = () => {
+        navigate('/chest-step3', { state: { routine } });
     };
 
-    const handleCancel = () => {
-        navigate('/')
-    };
+    const handleGoBack = () =>{
+        navigate('fitnessroutines');
 
+    }
 
     return (
         <>
@@ -100,15 +99,15 @@ const Chest = () => {
                 </div>
                 <div className={styles.buttonsContainer}>
 
-                    <Button onClick={handleSave} className={styles.button} routine={routine}>
+                    <Button className={styles.button} onClick={handleContinue}>
                         CONTINUAR
                     </Button>
-                    <Button onClick={handleCancel} className={styles.button}>
-                        CANCELAR
+
+                    <Button className={styles.button} onClick={handleGoBack}>
+                        ATRÁS
                     </Button>
 
                 </div>
-
             </div>
 
             <hr className={styles.line} />
@@ -128,7 +127,7 @@ const Chest = () => {
                 <div className={styles.stepsDescription}>Comenzar a entrenar &#128170;</div>
             </div>
         </>
-    )
+    );
 }
 
 export default Chest;

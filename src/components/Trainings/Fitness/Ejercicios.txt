@@ -253,8 +253,19 @@ Curl en máquina de concentración
 Curl en máquina de martillo
 Curl en máquina de banco inclinado
 Curl con agarre inverso
+Curl con agarre inverso con barra
+Curl con agarre inverso con mancuernas
+Curl con agarre inverso con barra EZ
+Curl con agarre inverso con banda elástica
+Curl de bíceps martillo con mancuernas
+Curl de bíceps martillo con barra
+Curl de bíceps martillo con barra EZ
+Curl de bíceps banda elástica
+Curl de bíceps con cable de pie
+Curl de bíceps con cable sentado
+Curl de bíceps con cable inclinado
 Curl con agarre prono
-Curl con agarre supino
+Curl con agarre supino',
 Curl con mancuernas en supinación
 Curl con mancuernas en pronación
 Curl con mancuernas en agarre neutro
