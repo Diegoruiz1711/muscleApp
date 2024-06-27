@@ -4,17 +4,22 @@ import styles from './ChestList.module.css';
 import ExerciseModalContent from '../../../../../../../Modal/ExerciseModal';
 import { RoutineContext } from '../../../../../../../../App';
 
-
 const ChestList = ({ exercises, onExerciseClick }) => {
     const { modalIsOpen, openModal, closeModal } = useContext(RoutineContext);
+    const [selectedExercise, setSelectedExercise] = useState(null);
+
+    const handleExerciseClick = (exercise) => {
+        setSelectedExercise(exercise);
+        openModal();
+    };
 
     return (
         <>
             <div className={styles.listContainer}>
                 {exercises.map((exercise, index) => (
                     <div className={styles.exerciseContainer} key={index}>
-                        <div className={styles.exerciseName} onClick={() => onExerciseClick(exercise)}>{exercise}</div>
-                        <div className={styles.exerciseHelp} onClick={openModal}>?</div>
+                        <div className={styles.exerciseName} onClick={() => onExerciseClick(exercise.exercise)}>{exercise.exercise}</div>
+                        <div className={styles.exerciseHelp} onClick={() => handleExerciseClick(exercise)}>?</div>
                     </div>
                 ))}
             </div>
@@ -26,8 +31,7 @@ const ChestList = ({ exercises, onExerciseClick }) => {
                 className={styles.modal}
                 overlayClassName={styles.overlay}
             >
-                <ExerciseModalContent closeModal={closeModal} />
-            
+                {selectedExercise && <ExerciseModalContent exercise={selectedExercise} closeModal={closeModal} />}
             </Modal>
         </>
     );

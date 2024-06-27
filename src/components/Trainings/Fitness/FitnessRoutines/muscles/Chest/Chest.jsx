@@ -4,7 +4,7 @@ import ChestList from './FirstSteps/ChestList/ChestList';
 import ChestRoutine from './FirstSteps/ChestRoutine/ChestRoutine';
 import Button from '../../../../../Button/Button';
 import { useNavigate } from 'react-router-dom';
-import {api} from '../../../../../../utils/api'
+import { api } from '../../../../../../utils/api'
 import { RoutineContext } from '../../../../../../App';
 
 const Chest = () => {
@@ -20,7 +20,7 @@ const Chest = () => {
             try {
                 const response = await api().get('/exercises/chest');
                 setExercises(response.data);
-                setAvailableExercises(response.data.map(exercise => exercise.exercise));
+                setAvailableExercises(response.data);
             } catch (error) {
                 console.error('Error fetching exercises:', error);
                 setError(error);
@@ -30,12 +30,12 @@ const Chest = () => {
     }, []);
 
     const addExerciseToRoutine = (exercise) => {
-        setAvailableExercises(availableExercises.filter(item => item !== exercise));
+        setAvailableExercises(availableExercises.filter(item => item.exercise !== exercise));
         setRoutine([...routine, exercise]);
     };
 
     const removeExerciseFromRoutine = (exercise) => {
-        setRoutine(routine.filter(item => item !== exercise));
+        setRoutine(routine.filter(item => item.exercise !== exercise));
         setAvailableExercises([...availableExercises, exercise]);
     };
 
@@ -49,9 +49,9 @@ const Chest = () => {
 
     return (
         <>
-        <div className={styles.title}>
-            <h1>Pectorales - {routineName}</h1>
-        </div>
+            <div className={styles.title}>
+                <h1>Pectorales - {routineName}</h1>
+            </div>
             <div className={styles.container}>
                 <div>
                     <ChestList
