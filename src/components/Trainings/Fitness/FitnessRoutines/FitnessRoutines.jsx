@@ -1,3 +1,4 @@
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import abdominal_abs from '../../../../assets/images/fitness/abdominal_abs.png';
 import abductors from '../../../../assets/images/fitness/abductors.png';
@@ -17,11 +18,14 @@ import shoulders from '../../../../assets/images/fitness/shoulders.png';
 import traps from '../../../../assets/images/fitness/traps.png';
 import triceps from '../../../../assets/images/fitness/triceps.png';
 import styles from './FitnessRoutines.module.css';
+import { RoutineContext } from '../../../../App';
+
 
 const FitnessRoutines = () => {
+    const { routineName } = useContext(RoutineContext);
     return (
         <>
-            <h1 className={styles.title}>Selecciona los músculos que quieres trabajar</h1>
+            <h1 className={styles.title}>Selecciona los músculos que quieres agregar a {routineName}</h1>
 
             <div className={styles.container}>
                 <div className={styles.muscleContainer}>
@@ -53,7 +57,7 @@ const FitnessRoutines = () => {
                     <Link to='/shoulders' className={styles.linkContainer}>
                         <img src={shoulders} alt="icon" className={styles.imgSize} />
                     </Link>
-                    <h2 className={styles.muscleFont}>Hombros</h2>
+                    <h2 className={styles.muscleFont}>Deltoides</h2>
                 </div>
                 <div className={styles.muscleContainer}>
                     <Link to='/triceps' className={styles.linkContainer}>

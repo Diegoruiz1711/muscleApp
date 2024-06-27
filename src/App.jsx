@@ -1,3 +1,4 @@
+import { createContext, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Trainings from './components/Trainings/Trainings'
 import Fitness from "./components/Trainings/Fitness/Fitness";
@@ -17,11 +18,27 @@ import NotFound from "./components/NotFound/NotFound";
 import Help from "./components/Help/Help";
 import ExerciseModal from "./components/Modal/ExerciseModal";
 import BicepsSetsAndReps from "./components/Trainings/Fitness/FitnessRoutines/muscles/Biceps/BicepsSetsAndReps/BicepsSetsAndReps"
+import StartTraining from "./components/Trainings/Fitness/Start/StartTraining";
+
+export const RoutineContext = createContext();
+
 function App() {
+  const [routineName, setRoutineName]= useState('')
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const openModal = () => {
+        setModalIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalIsOpen(false);
+    };
+
+  const Values = createContext(routineName);
 
   return (
     <>
-
+<RoutineContext.Provider value={{ routineName, setRoutineName, modalIsOpen, openModal, closeModal }}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Trainings />} />
@@ -40,10 +57,11 @@ function App() {
           <Route path="/cardioroutines" element={<CardioRoutines />} />
           <Route path="/help" element={<Help />} />
           <Route path="/modal" element={<ExerciseModal />} />
+          <Route path="/fitnessstart" element={<StartTraining />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-
+      </RoutineContext.Provider>
 
     </>
   )

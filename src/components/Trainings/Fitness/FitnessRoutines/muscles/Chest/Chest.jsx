@@ -1,67 +1,33 @@
-import { useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import styles from './Chest.module.css'
 import ChestList from './FirstSteps/ChestList/ChestList';
 import ChestRoutine from './FirstSteps/ChestRoutine/ChestRoutine';
 import Button from '../../../../../Button/Button';
 import { useNavigate } from 'react-router-dom';
+import {api} from '../../../../../../utils/api'
+import { RoutineContext } from '../../../../../../App';
 
 const Chest = () => {
-    const navigate = useNavigate()
-
-    const [availableExercises, setAvailableExercises] = useState([
-        'Press de banca',
-        'Press inclinado',
-        'Press declinado',
-        'Aperturas con mancuernas',
-        'Pullover',
-        'Fondos en paralelas',
-        'Press de banca con barra',
-        'Press de banca con mancuernas',
-        'Aperturas en máquina (Pec Deck)',
-        'Press de pecho en máquina',
-        'Press en máquina Smith',
-        'Press con banda de resistencia',
-        'Press en banco plano con barra',
-        'Press en banco inclinado con barra',
-        'Press en banco declinado con barra',
-        'Aperturas en banco inclinado',
-        'Aperturas en banco declinado',
-        'Press de banca con agarre cerrado',
-        'Fondos asistidos en máquina',
-        'Press con mancuernas en banco plano',
-        'Press con mancuernas en banco inclinado',
-        'Press con mancuernas en banco declinado',
-        'Aperturas en polea alta',
-        'Aperturas en polea baja',
-        'Aperturas en cable crossover',
-        'Press de banca con cadenas',
-        'Press de banca con banda elástica',
-        'Flexiones',
-        'Flexiones con manos juntas(Diamante)',
-        'Flexiones inclinadas',
-        'Flexiones declinadas',
-        'Flexiones con palmada',
-        'Flexiones en anillas',
-        'Flexiones en TRX',
-        'Press de pecho en máquina Hammer Strength',
-        'Press de pecho unilateral con mancuernas',
-        'Press de pecho unilateral en máquina',
-        'Press de pecho en banco con stability ball',
-        'Push-up con peso adicional',
-        'Flexiones arqueadas',
-        'Flexiones con agarre amplio',
-        'Flexiones con peso corporal en anillas',
-        'Flexiones en paralelas',
-        'Press de pecho en máquina Marcy',
-        'Press de pecho en máquina Cybex',
-        'Press con mancuernas en banca ajustable',
-        'Press de pecho con cable',
-        'Flexiones de pecho con BOSU',
-        'Press de pecho con Kettlebell',
-        'Flexiones con bandas de resistencia',
-    ]);
-
+    const navigate = useNavigate();
+    const [exercises, setExercises] = useState([]);
+    const [availableExercises, setAvailableExercises] = useState([]);
     const [routine, setRoutine] = useState([]);
+    const [error, setError] = useState(null);
+    const { routineName } = useContext(RoutineContext);
+
+    useEffect(() => {
+        const fetchExercises = async () => {
+            try {
+                const response = await api().get('/exercises/chest');
+                setExercises(response.data);
+                setAvailableExercises(response.data.map(exercise => exercise.exercise));
+            } catch (error) {
+                console.error('Error fetching exercises:', error);
+                setError(error);
+            }
+        };
+        fetchExercises();
+    }, []);
 
     const addExerciseToRoutine = (exercise) => {
         setAvailableExercises(availableExercises.filter(item => item !== exercise));
@@ -77,13 +43,15 @@ const Chest = () => {
         navigate('/chest-step3', { state: { routine } });
     };
 
-    const handleGoBack = () =>{
+    const handleGoBack = () => {
         navigate('fitnessroutines');
-
-    }
+    };
 
     return (
         <>
+        <div className={styles.title}>
+            <h1>Pectorales - {routineName}</h1>
+        </div>
             <div className={styles.container}>
                 <div>
                     <ChestList
@@ -98,15 +66,12 @@ const Chest = () => {
                     />
                 </div>
                 <div className={styles.buttonsContainer}>
-
                     <Button className={styles.button} onClick={handleContinue}>
                         CONTINUAR
                     </Button>
-
                     <Button className={styles.button} onClick={handleGoBack}>
                         ATRÁS
                     </Button>
-
                 </div>
             </div>
 
@@ -128,6 +93,6 @@ const Chest = () => {
             </div>
         </>
     );
-}
+};
 
 export default Chest;

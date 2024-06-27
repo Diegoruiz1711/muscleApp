@@ -1,9 +1,9 @@
-import { useState } from 'react';
 import Button from '../Button/Button';
 import styles from './Help.module.css'
 import { Link } from 'react-router-dom'; 
 import ExerciseModal from '../Modal/ExerciseModal';
 
+  
 const Help = () => {
     const [isOpen, setIsOpen] = useState(false);
 

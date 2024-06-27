@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.container {
+.listContainer {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -12,38 +12,50 @@
     overflow-x: hidden;
     overflow-y: auto;
     width: 80vh;
-    margin: 5%;
+    margin: 2%;
     padding: 1% 5% 1% 5%;
-    border: 2px solid grey;
+    border: 2px solid #000;
+    background-color: #FECB0D;
+}
+
+.exerciseSetReps{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 .exerciseContainer {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin: 0.5%;
-    font-size: 1.4em;
-    height: 1.5em;
-    border: 2px solid grey;
-    width: 80vh;
-}
+    padding: 1% 2%;
+    font-size: 1.3em;
+    height: 1.8em;
+    width: 100%;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    background-color: black;
+    color: #FFF;
+    border: 2px solid #FFF;
+
+} 
 
 .setDetails{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin: 0.5%;
-    font-size: 1.4em;
-    height: 1.5em;
-    border: 2px solid grey;
-    width: 80vh;
-    
+    padding: 1% 2%;
+    font-size: 1.3em;
+    height: 1.8em;
+    width: 100%;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    background-color: #FF7700;
+    color: #FFF;
 }
+
 .reps{
+    gap: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,6 +70,9 @@
 
 .inputFormat{
     width: 25%;
+    font-size: 1em;
+    background-color: #FFF;
+    color: black;
 }
 
 .buttonsContainer {
@@ -136,5 +151,28 @@
     width: 8%;
     margin: 1em 2.6em; 
     font-size: 1.3em;
+}
+
+.setSeriesInput{
+    width: 2.7em;
+    height: 1.6em;
+    font-size: 1em;
+    background-color: #000;
+    color: white;
+}
+
+.setRepsInput{
+    width: 2.7em;
+    height: 1.6em;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 

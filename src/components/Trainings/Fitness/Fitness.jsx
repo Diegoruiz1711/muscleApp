@@ -7,7 +7,7 @@ const Fitness = () => {
     return (
 
         <div className={styles.container}>
-        <Link to='/fitnessroutines'><img src={fitnessIcon} alt="Cardio image" className={styles.imgSize}/></Link>
+        <Link to='/fitnessroutines'><img src={fitnessIcon} alt="Fitness image" className={styles.imgSize}/></Link>
     </div>
 
     )

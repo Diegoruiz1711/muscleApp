@@ -21,14 +21,17 @@ const NavBar = () => {
             </div>
 
             <div className={styles.menu}>
-                <Link to='/' className={styles.navContent}>
-                    <div className={styles.menuButtonNavBar}>Inicio</div>
+                <Link to='/fitnessroutines' className={styles.navContent}>
+                    <div className={styles.menuButtonNavBar}>Musculación</div>
                 </Link>
-                <Link to='/1' className={styles.navContent}>
-                <div className={styles.menuButtonNavBar}>Entrenamientos</div>
+                <Link to='/cardio' className={styles.navContent}>
+                <div className={styles.menuButtonNavBar}>Cardio</div>
+                </Link>
+                <Link to='/aerobics' className={styles.navContent}>
+                    <div className={styles.menuButtonNavBar}>Aeróbico</div>
                 </Link>
                 <Link to='/help' className={styles.navContent}>
-                    <div className={styles.menuButtonNavBar}>Ayuda</div>
+                    <div className={styles.menuButtonNavBar}>Nutrición</div>
                 </Link>
             </div>
 

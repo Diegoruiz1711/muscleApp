@@ -81,3 +81,10 @@
     margin: 1em 2.6em; 
     font-size: 1.3em;
 }
+
+.title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,24 +1,49 @@
-.container {
+.listContainer{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 60vh;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     width: 50vh;
     margin: 5%;
     padding: 1% 5% 1% 5%;
-    border: 2px solid grey;
+    border: 2px solid black;
+    background-color: #FECB0D;
 }
 
 .exerciseContainer {
     display: flex;
     align-items: center;
-    padding-left: 2%;
+    justify-content: space-between;
     gap: 1%;
-    margin: 0.5%;
-    font-size: 1.4em;
+    margin: 2% 1%;
     height: 1.5em;
-    border: 2px solid grey;
     width: 100%;
+} 
+
+.exerciseName{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    font-size: 1.2em;
+    height: 1.8em;
+    width: 90%;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    background-color: black;
+    color: #FFF;
+}
+
+.exerciseHelp{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.2em;
+    height: 1.8em;
+    width: 8%;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    background-color: black;
+    color: #FFF;
 }
